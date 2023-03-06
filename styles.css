@@ -1,0 +1,39 @@
+body {
+    background-color: #D6E2F0;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;   
+}
+
+p {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    margin: 15% auto;
+    padding-bottom: 15px;
+    width: 230px;
+    
+}
+
+#qr {
+    border-radius: 10px;
+    width: 210px;
+    margin: 10px 10px;
+    
+}
+
+#header {
+    color: #1F3251;
+    font-size: 1.0625rem;
+    font-weight: 900;
+}
+
+#body-text {
+    color: grey;
+    font-size: 0.6875rem;
+    font-weight: 400;
+}
+
