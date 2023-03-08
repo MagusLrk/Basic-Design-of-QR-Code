@@ -4,9 +4,19 @@ body {
     text-align: center;   
 }
 
+h1 {
+    color: #1F3251;
+    font-size: 19px;
+    font-weight: 900;
+    margin: 0;
+}
+
 p {
+    color: grey;
+    font-size: 0.6875rem;
+    font-weight: 400;
+    margin: 12px auto;
     width: 80%;
-    margin: 10px auto;
 }
 
 .container {
@@ -18,22 +28,8 @@ p {
     
 }
 
-#qr {
+.container img {
     border-radius: 10px;
     width: 210px;
     margin: 10px 10px;
-    
 }
-
-#header {
-    color: #1F3251;
-    font-size: 1.0625rem;
-    font-weight: 900;
-}
-
-#body-text {
-    color: grey;
-    font-size: 0.6875rem;
-    font-weight: 400;
-}
-
