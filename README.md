@@ -27,12 +27,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - unfortunately, I didn't time for this flexbox submission
 
 ## Sites used 
- - https://fonts.google.com/
- - https://convertingcolors.com/
- - codepen.io
- - codeply.com
- - devdocs.io
- - figma.com
+ - [Google Fonts](https://fonts.google.com/)
+ - [Converting Colors](https://convertingcolors.com/)
+ - [Codepen](https://codepen.io/)
+ - [Codeply](https://www.codeply.com/)
+ - [DevDocs](https://devdocs.io/)
+ - [Figma](https://www.figma.com/)
 
 ## Built with
 
