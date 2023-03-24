@@ -1,35 +1,72 @@
 body {
     background-color: #D6E2F0;
     font-family: 'Outfit', sans-serif;
-    text-align: center;   
+    text-align: center;
+    padding-top: 9.438em;
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    height: 62.125vh;
+    width: 22.222vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 1.063em;
 }
 
 h1 {
     color: #1F3251;
-    font-size: 1.1875em;
-    font-weight: 900;
-    padding: 0 0.5em 0;
+    font-size: 1.375rem;
+    font-weight: 700;
+    max-width: 85%;
+    margin: 20px 0 0;
 }
 
 p {
     color: grey;
-    font-size: 0.8125rem;
-    font-weight: 400;
-    margin: 0.75rem auto;
-    width: 80%;
+    font-size: 0.938rem;
+    max-width: 80%;
+    margin: 1.25em 0 2.375em;
 }
 
-.container {
-    background-color: white;
-    border-radius: 10px;
-    margin: 15% auto;
-    padding-bottom: 0.9375em;
-    width: 30%;
-    
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 5%;
+  }
+  
+footer > p {
+    margin: auto;
 }
+  
 
-.container img {
-    border-radius: 10px;
-    width: 90%;
-    margin-top: 0.8125em;
+/* for the mobile view */
+
+@media all and (max-width: 375px) {
+    body {
+        padding-top: 5.313em;
+    }
+
+    .container {
+        height: auto;
+        width: 90%;
+    }
+
+    footer {
+        width: 100%;
+        position: fixed;
+        bottom: 2%;
+    }
+
+    footer > p {
+        max-width: 60%;
+    }
 }
